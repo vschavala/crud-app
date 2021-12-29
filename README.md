@@ -15,9 +15,9 @@ This App is used for Create Read,Update and delete  with multiple delete availab
 
 3. got to project path cd /projectpath
 
-4. docker-compose build 
+4. docker-compose up -d
 
-5. docker-compose up -d
+5. docker-compose up
 
 ## Screen shots
 
