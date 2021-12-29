@@ -20,3 +20,8 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('product-list', 'ProductController@index');
+Route::get('product-list/{id}/edit', 'ProductController@edit');
+Route::post('product-list/store', 'ProductController@store');
+Route::get('product-list/delete/{id}', 'ProductController@destroy');
+Route::delete('myproductsDeleteAll', 'ProductController@multiDelete');
